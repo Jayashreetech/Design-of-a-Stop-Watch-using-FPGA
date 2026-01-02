@@ -1,0 +1,22 @@
+# Clock
+NET "clock" LOC = "B8";       # 50 MHz onboard oscillator
+
+# Push Buttons
+NET "start" LOC = "G12";      # BTN0
+NET "reset" LOC = "C11";      # BTN1
+
+# 7-Segment Display Segments (active-low, common-anode)
+NET "a"  LOC = "L14";
+NET "b"  LOC = "H12";
+NET "c"  LOC = "N14";
+NET "d"  LOC = "N11";
+NET "e"  LOC = "P12";
+NET "f"  LOC = "L13";
+NET "g"  LOC = "M12";
+NET "dp" LOC = "N13";
+
+# 7-Segment Display Anodes (active-low)
+NET "an<0>" LOC = "F12";      # Rightmost digit
+NET "an<1>" LOC = "J12";
+NET "an<2>" LOC = "M13";
+NET "an<3>" LOC = "K14";      # Leftmost digit
