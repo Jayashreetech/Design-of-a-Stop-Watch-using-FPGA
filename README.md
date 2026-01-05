@@ -10,8 +10,8 @@
 - **HDL:** Verilog
 - **Simulation:** Testbench (`stopwatch_tb.v`) and waveform screenshot
 - **Display:** 4-digit 7-segment multiplexed display
-- **Development Tools:** Xilinx ISE / Vivado, Basys FPGA Board
-- **Other Components:** Push buttons (start/stop/reset), oscillator (25/50/100 MHz)
+- **Development Tools:** Xilinx ISE, Basys FPGA Board
+- **Other Components:** Push buttons (start/stop/reset), oscillator (50 MHz)
 
 
 ## Project Description
